@@ -1,5 +1,38 @@
-#searchbar {
+#searchbar input {
 	-webkit-appearance: none;
 	border-style: solid;
 	border-radius: 0px;
+	width: 85%;
+	height: 100%;
+	font-size: 21px;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	color: grey;
+	float: left;
+}
+
+#searchbar {
+	width: 50%;
+	height: 30px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#searchbar_button {
+	height: 35px;
+	width: 10%;
+	background-color: lightgrey;
+	float: left;
+	margin-left: 5px;
+	vertical-align: middle;
+	text-align: center;
+	color: white;
+	font-size: 18px;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+
+#searchbar_button_img {
+	display: table-cell;
+}
+
+#searchbar_button_img span {
 }

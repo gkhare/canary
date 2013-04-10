@@ -12,7 +12,7 @@ function callHttp(httpLink) {
         url: httpLink
     }).responseText;
     if(response==null ||response.length<1){return null;}
-    var obj = $(response);
+    var obj = '<article>'.concat(response).concat('</article>');
 
     return obj;
 }
