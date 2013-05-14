@@ -1,10 +1,12 @@
 #searchbar input {
 	-webkit-appearance: none;
-	border-style: solid;
+	border-style: ridge;
 	border-radius: 0px;
-	width: 18em; /* it was 21em*/ 
-	height: 100%;
-	font-size: 21px;
+	border-width: 1px;
+	width: 20em; /* it was 21em*/ 
+	height: 2em;
+	padding: 0;
+	font-size: 1.2em;
 	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
 	color: gray;
 	float: left;
@@ -12,7 +14,7 @@
 
 #searchbar {
 	width: 34em;
-	height: 35px;
+	height: 3em;
 	margin-top: 175px;
 	margin-left: auto;
 	margin-right: auto;
@@ -23,7 +25,7 @@
 	padding-top: 0.5em;
 	height: 2em;
 	width: 5em;
-	background-color: blueviolet;
+	background-color: lightgray;
 	float: left;
 	margin: 0 1% 0 1%;
 	vertical-align: middle;
