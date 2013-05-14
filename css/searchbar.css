@@ -2,7 +2,7 @@
 	-webkit-appearance: none;
 	border-style: solid;
 	border-radius: 0px;
-	width: 85%;
+	width: 21em;
 	height: 100%;
 	font-size: 21px;
 	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
@@ -11,7 +11,7 @@
 }
 
 #searchbar {
-	width: 50%;
+	width: 34em;
 	height: 35px;
 	margin-top: 175px;
 	margin-left: auto;
@@ -22,7 +22,7 @@
 #searchbar_button {
 	padding-top: 0.5em;
 	height: 2em;
-	width: 12%;
+	width: 5em;
 	background-color: lightgray;
 	float: left;
 	margin: 0 1% 0 1%;
