@@ -3,7 +3,7 @@
 	border-style: ridge;
 	border-radius: 0px;
 	border-width: 1px;
-	width: 20em; /* it was 21em*/ 
+	width: 21em; /* it was 21em*/ 
 	height: 2em;
 	padding: 0;
 	font-size: 1.2em;
@@ -13,7 +13,7 @@
 }
 
 #searchbar {
-	width: 34em;
+	width: 31em;
 	height: 3em;
 	margin-top: 175px;
 	margin-left: auto;
@@ -27,7 +27,7 @@
 	width: 5em;
 	background-color: lightgray;
 	float: left;
-	margin: 0 1% 0 1%;
+	margin-left: 5px;
 	vertical-align: middle;
 	text-align: center;
 	color: white;
