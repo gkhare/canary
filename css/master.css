@@ -1,4 +1,5 @@
 @import url(searchbar.css);
+@import url(horizontalSeparator.css);
 
 
 ::-webkit-input-placeholder { /* WebKit browsers */

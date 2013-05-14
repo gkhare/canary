@@ -6,17 +6,16 @@ $(document).ready(function() {
 function init_searchbar () {
 	$('#searchbar input').focus();
 	$('#searchbar input').keyup(function(e) {
-		if (e.keyCode == 13) {
-			executeSearch();
-		}
+		executeSearch();
 	});
 	$('#searchbar_button').click(function() {
 		executeSearch();
 	});
 	$('#searchbar').bind('isHomePage', function(event) {
 	  if (!homepage) {
-	  	alert('hi');
-	  	$(this).css('top', 75);
+	  	$(this).css('margin-top', 40);
+	  	$(this).css('margin-left', 75);
+	  	$('body').append(callHttp("templates/horizontalSeparator.html"));
 	  } else {
 	  	alert('ho');
 	  }
@@ -24,9 +23,10 @@ function init_searchbar () {
 }
 
 function executeSearch () {
-	homepage=false;
-	$('searchbar').trigger('isHomePage');
-	alert("hello");
+	if (homepage) {
+		homepage=false;
+		$('#searchbar').trigger('isHomePage');
+	}
 }
 
 
