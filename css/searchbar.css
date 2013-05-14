@@ -20,20 +20,25 @@
 }
 
 #searchbar_button {
-	height: 30px;
-	width: 13%;
+	padding-top: 0.5em;
+	height: 2em;
+	width: 12%;
 	background-color: lightgray;
 	float: left;
-	margin-left: 1%;
+	margin: 0 1% 0 1%;
 	vertical-align: middle;
 	text-align: center;
-	padding-top: 10px;
 	color: white;
-	font-size: 13px;
-	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
-	border-radius: 2px;
+	font-size: 1em;
+	font-family: Verdana,Geneva,Arial,Helvetica,sans-serif;
+	border-radius: 2px 2px 2px 2px;
 	text-overflow: ellipsis;
 	overflow: hidden;
+}
+
+#searchbar_button:hover {
+	cursor: pointer;
+	background-color: #808080;
 }
 
 
