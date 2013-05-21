@@ -15,7 +15,7 @@ function init_searchbar () {
 	  if (!homepage) {
 	  	$(this).css('margin-top', 40);
 	  	$(this).css('margin-left', 75);
-	  	$('body').append(callHttp("templates/horizontalSeparator.html"));
+	  	appendHtml('body', "templates/horizontalSeparator.html");
 	  } else {
 	  	alert('ho');
 	  }
@@ -26,7 +26,9 @@ function executeSearch () {
 	if (homepage) {
 		homepage=false;
 		$('#searchbar').trigger('isHomePage');
+		appendHtml('body', "templates/searchresultsholder.html");
 	}
+	append("1");
 }
 
 

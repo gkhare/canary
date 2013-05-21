@@ -1,6 +1,7 @@
 @import url(searchbar.css);
-@import url(horizontalSeparator.css);
-
+@import url(horizontalseparator.css);
+@import url(searchitem.css);
+@import url(searchresults.css);
 
 ::-webkit-input-placeholder { /* WebKit browsers */
     color:    #999;

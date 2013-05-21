@@ -19,6 +19,7 @@
 	margin-left: auto;
 	margin-right: auto;
 	transition-duration: 0.75s;
+	-webkit-transition-duration: 0.75s;
 }
 
 #searchbar_button {

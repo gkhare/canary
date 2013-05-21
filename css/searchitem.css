@@ -1,0 +1,14 @@
+.itembase {
+	float :left;
+	border: 0;
+	margin: 2px 2px 2px 2px;
+	height: 100px;
+	width: 100px;
+	background-color: blue;
+}
+
+.itembase:hover, .itembase:active {
+	width: 150px;
+	background-color: lightblue;
+	cursor: pointer;
+}

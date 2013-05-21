@@ -17,7 +17,10 @@ function callHttp(httpLink) {
     return obj;
 }
 
+function appendHtml(base, link) {
+	$(base).append(callHttp(link));
+}
 
 function init() {
-	$('body').append(callHttp("templates/searchbar.html"));
+	appendHtml('body', "templates/searchbar.html");
 }
